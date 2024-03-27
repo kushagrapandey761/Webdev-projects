@@ -1,0 +1,92 @@
+.header1{
+    background-color: #e4f9f5;
+    height: 100%;
+}
+.header1>h1{
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 100px;
+}
+.header1 .welcome{
+    margin-left: 460px;
+    margin-top: 0px;
+    height: 300px;
+}
+.header1 h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+.header1 .programmer{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.hero1 .profile{
+    border-radius: 50%;
+}
+.hero1>div>.hello{
+    color: #66bfbf;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.skills>h2{
+    color: #66bfbf;
+    margin-top: 20px;
+    font-weight: 1000;
+    text-align: center;
+}
+.skills>.skill1>p>.skill1img{
+    margin-left: 300px;
+    float: left;
+}
+.skills>.skill1{
+    margin-top: 50px;
+    width: 70%;
+    margin-bottom: 150px;
+}
+.skills>.skill1 p{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.hero1 p{
+    font-family: "Montserrat", sans-serif;
+}
+.skills>.skill1>p>.coder{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-weight: 900;
+}
+.skills>.skill2>p>.skill2img{
+    margin-left: 300px;
+    float: left;
+}
+.skills>.skill2 p{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.skills>.skill2>p>.gamer{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-weight: 900;
+}
+.contact>h2{
+    margin-top: 200px;
+    color: #66bfbf;
+    font-weight: 1000;
+    text-align: center;
+}
+.contact>h3{
+    color: #66bfbf;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact>.btn-dark{
+    margin-left: 700px;
+    margin-top: 50px;
+}

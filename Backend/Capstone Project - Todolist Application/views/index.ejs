@@ -1,0 +1,58 @@
+<%- include("partials/header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <link rel="stylesheet" href="/styles/main.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+        <div class="list-group">
+          <label class="list-group-item d-flex gap-3">
+            <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked="" style="font-size: 1.375em;">
+            <span class="pt-1 form-checked-content">
+              <p>f</p>
+              <small class="d-block text-body-secondary">
+                <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#calendar-event"></use></svg>
+
+              </small>
+            </span>
+          </label>
+          <label class="list-group-item d-flex gap-3">
+            <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
+            <span class="pt-1 form-checked-content">
+              <p>ad</p>
+              <small class="d-block text-body-secondary">
+                <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#calendar-event"></use></svg>
+
+              </small>
+            </span>
+          </label>
+          <label class="list-group-item d-flex gap-3">
+            <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
+            <span class="pt-1 form-checked-content">
+              <p>dfggf</p>
+            </span>
+          </label>
+          <% while(locals.it){ %>
+            <label class="list-group-item d-flex gap-3">
+              <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
+              <span class="pt-1 form-checked-content">
+                <p><%= it %></p>
+              </span>
+            </label>
+            <% } %>
+          <form action="/submit" method="POST">
+            <input type="text" name="item" placeholder="Add item">
+            <input type="submit" value="OK">
+          </form>
+        </div>
+      </div>
+</body>
+</html>
+
+<%- include("partials/footer.ejs") %>
