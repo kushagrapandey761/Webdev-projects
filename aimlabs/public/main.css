@@ -38,5 +38,8 @@ body {
       background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
       /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     }
-    
-    
+
+    #root{
+      color:rgb(0, 34, 77);
+      font-family: Tahoma, sans-serif;
+    }
